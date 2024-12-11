@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuchar el Libro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        #imagen {
+            max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+            height: 80px; /* Mantiene la proporción de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Escucha el Libro</h1>
+        <p>A continuación, podrás escuchar la narración del libro:</p>
+         <div class="libro">
+    <img id="imagen" src="assets/imagenes/icon.png" alt="Página del libro">
+    <p id="texto"></p>
+</div>
+        <!-- Reproductor de audio -->
+        <audio controls>
+            <source src="audios/libro.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="volver">
+            <a href="index.html" class="boton">Volver al inicio</a>
+        </div>
+    </div>
+</body>
+</html>

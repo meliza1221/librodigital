@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor General */
+.contenedor {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Títulos y Textos */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#texto {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Botones Generales */
+.boton,
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Reproductor de Audio */
+audio {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Contenedor del Libro */
+#libro,
+.libro {
+    max-width: 600px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Imágenes */
+.imagen {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+

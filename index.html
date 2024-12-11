@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Libro Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <style>
+        .libro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #imagen {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Bienvenido al Libro Interactivo</h1>
+        <p>Selecciona cómo deseas disfrutar esta experiencia:</p>
+        <div class="opciones">
+            <a href="libro_interactivo.html" class="boton">Interactuar con el libro</a>
+            <a href="sonido.html" class="boton">Escuchar el libro</a>
+        </div>
+    </div>
+    <div class="libro">
+        <img id="imagen" src="assets/imagenes/portada.png" alt="Página del libro">
+        <p id="texto"></p>
+    </div>
+</body>
+</html>
